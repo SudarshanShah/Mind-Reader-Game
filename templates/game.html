@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Mind Reader Game</title>
+</head>
+<body style="background: aliceblue url('data:image/jpeg;base64,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');">
+
+<div class="container mb-4 mt-2">
+    <div class="row">
+        <div class="col">
+            <h2 align="center" style="color: crimson; background: antiquewhite"><i>WELCOME</i> <i>{{ name }}</i></h2>
+            <h2 align="center" style="color: brown">TO</h2>
+            <h2 align="center" style="color: chocolate"><strong>Mind Reader Game</strong></h2>
+        </div>
+    </div>
+</div>
+<script>
+    let data = {{ cards }};
+    let yourNumber = 0;
+    let count = 0;
+
+    function startbtn() {
+        if (document.getElementById("start").onclick && document.getElementById("start").value === "Restart") {
+            document.getElementById("nobtn").disabled = true;
+            document.getElementById("yesbtn").disabled = true;
+            document.getElementById("start").value = "Start";
+            document.getElementById("textvalue").value = "Click on Start";
+            document.getElementById("cardsarea").innerHTML = "Think of a number between 1 and 63. Six cards will be displayed. After the last one, your number is revealed.";
+            data = {{ cards }};
+            yourNumber = 0;
+            count = 0;
+        } else {
+            let data = {{ cards }};
+            count++;
+            document.getElementById("cardsarea").innerHTML = "        Card " + count + "\n" + data[0];
+            document.getElementById("start").value = "Restart";
+            document.getElementById("yesbtn").disabled = false;
+            document.getElementById("nobtn").disabled = false;
+            document.getElementById("textvalue").value = "Is your number shown above?";
+        }
+    }
+
+    function yesactionbtn() {
+        if ((document.getElementById("yesbtn").onclick) && (data.length === 1 || data.length === 0)) {
+            if (data.length === 1) {
+                yourNumber += data[0][0];
+            }
+            data.shift();
+            document.getElementById("cardsarea").innerHTML = "The number you were thinking was :  " + yourNumber;
+            document.getElementById("textvalue").value = "Click on Restart to Start again";
+        } else if (document.getElementById("yesbtn").onclick) {
+            yourNumber += data[0][0];
+            data.shift();
+            count++;
+            document.getElementById("cardsarea").innerHTML = "        Card " + count + "\n" + data[0];
+        }
+    }
+
+    function noactionbtn() {
+        if ((document.getElementById("nobtn").onclick) && (data.length === 1 || data.length === 0)) {
+            if (data.length === 0) {
+                document.getElementById("cardsarea").innerHTML = "The number you were thinking was :  " + yourNumber;
+                document.getElementById("textvalue").value = "Click on Restart to Start again";
+            }
+            data.shift();
+            document.getElementById("cardsarea").innerHTML = "The number you were thinking was :  " + yourNumber;
+            document.getElementById("textvalue").value = "Click on Restart to Start again";
+        } else if (document.getElementById("nobtn").onclick) {
+            data.shift();
+            count++;
+            document.getElementById("cardsarea").innerHTML = "        Card " + count + "\n" + data[0];
+        }
+    }
+</script>
+<style>
+    textarea.large {
+        font-weight: bold;
+        font-size: 16px;
+        font-family: monospace;
+    }
+
+    input.tell {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    input.red {
+        background-color: #cc0000;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+    }
+
+    input.blue {
+        background-color: #0000ff;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+    }
+
+    input.green {
+        background-color: #00ff00;
+        font-weight: bold;
+        font-size: 14px;
+        color: white;
+    }
+</style>
+<h3 align="center">Let's Read Your MIND</h3>
+<br/>
+<h6 align="center" style="background: azure">Think of a number between 1 and 63, answer 6 simple questions, and the Mind
+    Reader will reveal your
+    number! How is this
+    possible??</h6>
+<br/>
+<br/>
+<form name="x" id="x">
+    <center>
+        <table border="0">
+            <tr>
+                <td>
+                    <center>
+						<textarea name="card" class="large" id="cardsarea" rows="8" cols="20">
+                            Think of a number between 1 and 63. Six cards will be displayed. After the last one, your number is revealed.
+                        </textarea>
+                    </center>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                        <input class="green" type="button" id="start" value="Start"
+                               onclick="startbtn();" style="FONT-SIZE: 10pt"/>
+                        <input class="tell" type="text" size="36" id="textvalue" value="&lt;== Click Start" disabled
+                               style="FONT-SIZE: 10pt"/>
+
+                    </center>
+                </td>
+                <td>&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <center>
+                        <input class="blue" type="button" id="yesbtn" value="YES" onclick="yesactionbtn()"
+                               style="FONT-SIZE: 10pt" disabled/>
+                        <input class="red" type="button" id="nobtn" value="NO" onclick="noactionbtn()"
+                               style="FONT-SIZE: 10pt" disabled/>
+                    </center>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </center>
+</form>
+<p>&nbsp;</p>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
